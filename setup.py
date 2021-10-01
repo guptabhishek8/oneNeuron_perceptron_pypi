@@ -9,7 +9,7 @@ user_name = "guptabhishek8"
 
 setuptools.setup(
     name=f"{Project_Name}-{user_name}",
-    version="0.0.1",
+    version="0.0.2",
     author=user_name,
     author_email="guptabhishek8@gmail.com",
     description=" its a implementation of Perceptron",
@@ -29,6 +29,10 @@ setuptools.setup(
     python_requires=">=3.7",
     install_requires=[
         "numpy",
-        "tqdm"
+        "tqdm",
+        "pandas",
+        "joblib",
+        "matplotlib.pyplot",
+        "matplotlib.colors",
     ]
 )
