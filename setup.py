@@ -9,7 +9,7 @@ user_name = "guptabhishek8"
 
 setuptools.setup(
     name=f"{Project_Name}-{user_name}",
-    version="0.0.2",
+    version="0.0.3",
     author=user_name,
     author_email="guptabhishek8@gmail.com",
     description=" its a implementation of Perceptron",
