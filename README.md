@@ -5,7 +5,7 @@ oneNeuron_perceptron_pypi
 ## How to Use this-
 
 ```python
-form oneNeuron.perceptron import Perceptron
+from oneNeuron.perceptron import Perceptron
 
 ## get X and y and then use below commands
 model = Perceptron(eta=eta, epoch=epoch)
